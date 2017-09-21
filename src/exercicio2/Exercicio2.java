@@ -1,15 +1,12 @@
+package exercicio2;
 
-package apoo;
+public class Exercicio2 {
 
-
-public class APOO {
-
-  
     public static void main(String[] args) {
         Cliente c1,c2;
                
         c1 = new Cliente();
-        c1.nome = "Marcelo Loutfi ";
+        c1.nome = "Marcelo Loutfi";
         c1.conta = new Conta();
         c1.conta.numero=1;
         c1.conta.saldo=800;
@@ -24,5 +21,7 @@ public class APOO {
         c2.conta.saldo=200;
         c2.conta.banco = new Banco();
         c2.conta.banco.nome="Banco Lehman Brothers";
+        
+        //System.out.println( c2.conta.saldo);
     }
 }

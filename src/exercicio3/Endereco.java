@@ -1,13 +1,5 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-package apoo2;
+package exercicio3;
 
-/**
- *
- * @author bslab105c
- */
 public class Endereco {
 
     public int numero;
